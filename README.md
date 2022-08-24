@@ -34,7 +34,7 @@ One set of loci may be analysed at a time! Script can be left mostly unsupervise
 
 2) DIRECTORY STRUCTURE
 Note that <abbr> indicates the chromosome (1,3,4,6 or all) on which microsat loci are found.
-
+```bash
 home						Home directory
 │   README.md					README - this file!
 │   <abbr>_loci.csv				Input csv file containing microsatellite allele data for <abbr>
@@ -46,7 +46,7 @@ home						Home directory
 │   │   file012.txt
 │   │
 │   └───<abbr>_loci				Dir of results for each subset of loci identified with <abbr>
-│       │   allelic_richness_<abbr>.txt	Data frame of allelic richness estimates from Hierfstat	
+│       │   allelic_richness_<abbr>.txt	        Data frame of allelic richness estimates from Hierfstat	
 │       │   heterozygosity_<abbr>.pdf		Plot of observed and expected heterozygosity at each site
 │       │   hybrid_tree_<abbr>.nexus		Nexus file containing hybrid phylogeny
 │       │   NJ_hybrid_tree_<abbr>.pdf		Plot of hybrid phylogeny using 
@@ -68,7 +68,7 @@ home						Home directory
     │   MICROSAT-<abbr>				Microsat allele data in rstcalc format
     │   RSTOUT-<abbr>				Standard rstcalc output file
     │   STND<abbr>				Standardised allele size from rstcalc STANDARD function
-
+```
 3) DESCRIPTION OF R CODE
 
 Lines 1-12: Preamble
